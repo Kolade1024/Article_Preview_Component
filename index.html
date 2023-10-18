@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Defines the character set and viewport settings -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <!-- Sets the website's favicon -->
+
+    <link rel="stylesheet" href="style.css" />
+    <!-- Links to an external stylesheet for styling -->
+
+    <script
+      src="https://kit.fontawesome.com/7ccc2b6943.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Includes Font Awesome icons library for use in the webpage -->
+
+    <script defer src="/app.js"></script>
+    <!-- Includes an external JavaScript file with the 'defer' attribute for non-blocking loading -->
+
+    <title>Frontend Mentor | Article preview component</title>
+    <!-- Sets the title of the webpage -->
+  </head>
+  <body>
+    <section class="container">
+      <!-- Main container for the content -->
+
+      <div class="image">
+        <img src="/images/drawers.jpg" alt="drawer" />
+        <!-- Displays an image of drawers with alternative text -->
+      </div>
+
+      <div class="content">
+        <!-- Section for the main content of the article -->
+
+        <p class="main_content">
+          Shift the overall look and feel by adding these wonderful touches to
+          furniture in your home
+        </p>
+        <!-- Main content of the article -->
+
+        <p class="story">
+          Ever been in a room and felt like something was missing? Perhaps it
+          felt slightly bare and uninviting. I’ve got some simple tips to help
+          you make any room feel complete.
+        </p>
+        <!-- Story content of the article -->
+
+        <div class="profile">
+          <!-- Profile section of the article author -->
+
+          <div class="data">
+            <!-- Container for author's data -->
+
+            <img id="avatar" src="/images/avatar-michelle.jpg" alt="avatar" />
+            <!-- Displays the author's avatar with alternative text -->
+
+            <div class="details">
+              <span class="name">Michelle Appleton</span>
+              <span class="date">28 Jun 2020</span>
+            </div>
+            <!-- Displays the author's name and publication date -->
+          </div>
+
+          <div class="share">
+            <!-- Button to trigger sharing options -->
+
+            <i class="fa-solid fa-share"></i>
+            <!-- Displays a share icon using Font Awesome -->
+          </div>
+        </div>
+      </div>
+
+      <div class="profile_active display">
+        <!-- Active profile section for sharing -->
+
+        <span class="text">SHARE</span>
+        <!-- Displays the text "SHARE" for sharing -->
+
+        <div class="icons">
+          <!-- Container for sharing icons -->
+
+          <i class="fa-brands fa-square-facebook"></i>
+          <i class="fa-brands fa-twitter"></i>
+          <i class="fa-brands fa-pinterest"></i>
+          <!-- Displays sharing icons for Facebook, Twitter, and Pinterest using Font Awesome -->
+        </div>
+
+        <div class="triangle"></div>
+        <!-- Creates a decorative triangle element -->
+
+        <div class="share active">
+          <!-- Button to close the sharing options -->
+
+          <i class="fa-solid fa-share"></i>
+          <!-- Displays a share icon using Font Awesome -->
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
